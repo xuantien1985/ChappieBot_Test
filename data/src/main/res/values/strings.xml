@@ -1,0 +1,5 @@
+<resources>
+    <!--<string name="video_api_base_url">https://raw.githubusercontent.com/xuantien1985/Chappiebot/master/</string>-->
+
+    <string name="api_base_url">https://raw.githubusercontent.com/xuantien1985/Chappiebot/master/</string>
+</resources>
