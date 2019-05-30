@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:bind="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.launcher.chappiebot.ui.newsFeed.NewsFeedListItemViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:layout_marginBottom="2dp"
+            android:onClick="@{(v) -> viewModel.onClick()}"
+            android:clickable="true"
+            android:focusable="true">
+
+        <TextView
+                android:id="@+id/title"
+                android:paddingLeft="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textSize="12.5dp"
+                android:paddingTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@{viewModel.newsFeedModel.title}"
+                android:textColor="@color/colorBlack"
+                bind:text="Title" />
+
+        <LinearLayout
+                android:id="@+id/optDesc"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/title"
+                android:orientation="horizontal"
+                android:gravity="right"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_gravity="right"
+                    android:padding="2dp"
+                    bind:imageUrl="@{viewModel.newsFeedModel.thumb3}"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/grey_50"
+                    android:scaleType="centerCrop" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_gravity="right"
+                    android:padding="2dp"
+                    bind:imageUrl="@{viewModel.newsFeedModel.thumb2}"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/grey_50"
+                    android:scaleType="centerCrop" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_gravity="right"
+                    android:padding="2dp"
+                    bind:imageUrl="@{viewModel.newsFeedModel.thumb1}"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/grey_50"
+                    android:scaleType="centerCrop" />
+
+            <!--<ImageView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:adjustViewBounds="true"-->
+                    <!--bind:imageUrl="@{viewModel.newsFeedModel.thumb1}"-->
+                    <!--bind:src="@drawable/ic_launcher_background" />-->
+
+            <!--<ImageView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:adjustViewBounds="true"-->
+                    <!--bind:imageUrl="@{viewModel.newsFeedModel.thumb2}"-->
+                    <!--bind:src="@drawable/ic_launcher_background" />-->
+
+            <!--<ImageView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:adjustViewBounds="true"-->
+                    <!--bind:imageUrl="@{viewModel.newsFeedModel.thumb3}"-->
+                    <!--bind:src="@drawable/ic_launcher_background" />-->
+
+            <!--<ImageView-->
+                    <!--android:layout_width="150dp"-->
+                    <!--android:layout_height="150dp"-->
+                    <!--android:adjustViewBounds="true"-->
+                    <!--bind:imageUrl="@{viewModel.newsFeedModel.thumb3}"-->
+                    <!--bind:src="@drawable/ic_account" />-->
+
+            <!--<ImageView-->
+                    <!--android:layout_width="150dp"-->
+                    <!--android:layout_height="150dp"-->
+                    <!--android:adjustViewBounds="true"-->
+                    <!--bind:imageUrl="@{viewModel.newsFeedModel.thumb2}"-->
+                    <!--bind:src="@drawable/ic_account" />-->
+
+            <!--<ImageView-->
+                    <!--android:layout_width="150dp"-->
+                    <!--android:layout_height="150dp"-->
+                    <!--android:adjustViewBounds="true"-->
+                    <!--bind:imageUrl="@{viewModel.newsFeedModel.thumb1}"-->
+                    <!--bind:src="@drawable/ic_account" />-->
+        </LinearLayout>
+
+        <TextView
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/optDesc"
+                android:id="@+id/publisherName"
+                android:paddingLeft="25dp"
+                android:textSize="14dp"
+                android:paddingTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@{viewModel.newsFeedModel.publisherName}"
+                android:gravity="top"
+                android:textColor="@color/colorRed"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

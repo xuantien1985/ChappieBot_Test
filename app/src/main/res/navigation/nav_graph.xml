@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/newsFeedListFragment">
+    <fragment
+        android:id="@+id/newsFeedListFragment"
+        android:name="com.launcher.chappiebot.ui.newsFeed.NewsFeedListFragment"
+        android:label="NewsFeedFragment"
+        tools:layout="@layout/fragment_newsfeed">
+        <action
+            android:id="@+id/action_newsFeedFragment_to_newsFeedDetailFragment"
+            app:destination="@id/newsFeedDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/newsFeedDetailFragment"
+        android:name="com.launcher.chappiebot.ui.newsFeeddetail.NewsFeedDetailFragment"
+        android:label="NewsFeedDetailFragment" >
+        <argument
+            android:name="NewsfeedDetailParameter"
+            app:argType="com.launcher.chappiebot.ui.newsFeeddetail.NewsFeedDetailParameter" />
+    </fragment>
+
+    <fragment
+            android:id="@+id/accountFragment"
+            android:name="com.launcher.chappiebot.ui.account.AccountFragment"
+            android:label="AccountFragment" >
+    </fragment>
+
+</navigation>

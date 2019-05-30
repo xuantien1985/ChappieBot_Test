@@ -1,0 +1,106 @@
+[
+  {
+    "id": "1",
+    "name": "Home Button",
+    "description": "Home Button.",
+    "icon": 1
+  },
+
+  {
+    "id": "2",
+    "name": "User Button",
+    "description": "User Button.",
+    "icon": 1
+  },
+  {
+    "id": "3",
+    "name": "Config Layout Button",
+    "description": "Config Layout Button.",
+    "icon": 1
+  },
+  {
+    "id": "4",
+    "name": "Information Button",
+    "description": "Information Button.",
+    "icon": 1
+  },
+  {
+    "id": "5",
+    "name": "Stop Video Button",
+    "description": "Stop Video Button.",
+    "icon": 1
+  },
+  {
+    "id": "6",
+    "name": "Next Video Button",
+    "description": "Next Video Button.",
+    "icon": 1
+  },
+  {
+    "id": "7",
+    "name": "Preview Video Button",
+    "description": "Preview Video Button.",
+    "icon": 1
+  },
+  {
+    "id": "8",
+    "name": "Search Button",
+    "description": "Search Button.",
+    "icon": 1
+  },
+  {
+    "id": "9",
+    "name": "Guide Button",
+    "description": "Guide Button.",
+    "icon": 1
+  },
+  {
+    "id": "10",
+    "name": "Setting Button",
+    "description": "Setting Button.",
+    "icon": 1
+  },
+  {
+    "id": "11",
+    "name": "Contact Button",
+    "description": "Contact Button.",
+    "icon": 1
+  },
+  {
+    "id": "12",
+    "name": "Control door Button",
+    "description": "Control door Button.",
+    "icon": 1
+  },
+  {
+    "id": "13",
+    "name": "Control lights Button",
+    "description": "Control lights Button.",
+    "icon": 1
+  },
+  {
+    "id": "14",
+    "name": "Language Button",
+    "description": "Language Button.",
+    "icon": 1
+  },
+  {
+    "id": "15",
+    "name": "Google Play Button",
+    "description": "Google Play Button.",
+    "icon": 1
+  },
+  {
+    "id": "16",
+    "name": "Music Box Button",
+    "description": "Music Box Button.",
+    "icon": 1
+  },
+  {
+    "id": "17",
+    "name": "Map Hotel Button",
+    "description": "Map Hotel Button.",
+    "icon": 1
+  }
+
+]

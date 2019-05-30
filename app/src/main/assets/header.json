@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "name": "Icon Home",
+    "icon": 1
+  },
+
+  {
+    "id": "2",
+    "name": "Welcome, Vigo",
+    "icon": 1
+  },
+  {
+    "id": "3",
+    "name": "09.99.99.77.77",
+    "icon": 1
+  },
+  {
+    "id": "4",
+    "name": "15-08-2018",
+    "icon": 1
+  },
+  {
+    "id": "5",
+    "name": "32.C",
+    "icon": 1
+  },
+  {
+    "id": "6",
+    "name": "11:30",
+    "icon": 1
+  },
+  {
+    "id": "7",
+    "name": "Room 24",
+    "icon": 1
+  },
+  {
+    "id": "8",
+    "name": "Da Lat",
+    "icon": 1
+  }
+
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "videoId": "1",
+    "name": "Music Box",
+    "description": "Japan USA KOREA.",
+    "linkUrl": "http://www.html5videoplayer.net/videos/toystory.mp4",
+    "status": false
+  },
+
+  {
+    "videoId": "2",
+    "name": "Apple Watch",
+    "description": "Iphone.",
+    "linkUrl": "http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4",
+    "status": false
+  },
+
+  {
+    "videoId": "3",
+    "name": "HTC ONE",
+    "description": "Chinatowm.",
+    "linkUrl": "https://archive.org/download/NellaKharismaKelinganMantan/Nella%20Kharisma%20-%20Kelingan%20Mantan.mp4",
+    "status": false
+  },
+  {
+    "videoId": "4",
+    "name": "Sony",
+    "description": "SMART SONY.",
+    "linkUrl": "http://www.html5videoplayer.net/videos/toystory.mp4",
+    "status": false
+  },
+  {
+    "videoId": "5",
+    "name": "SMART VIGO",
+    "description": "HOTEL NHA TRANG.",
+    "linkUrl": "http://www.html5videoplayer.net/videos/toystory.mp4",
+    "status": false
+  },
+  {
+    "videoId": "6",
+    "name": "LIVING SMILE",
+    "description": "DBP HCM.",
+    "linkUrl": "http://www.html5videoplayer.net/videos/toystory.mp4",
+    "status": false
+  },
+  {
+    "videoId": "7",
+    "name": "MOVIES SMART",
+    "description": "FILM USA.",
+    "linkUrl": "http://www.html5videoplayer.net/videos/toystory.mp4",
+    "status": false
+  },
+  {
+    "videoId": "8",
+    "name": "TELEVISION",
+    "description": "Japan USA KOREA.",
+    "linkUrl": "http://www.html5videoplayer.net/videos/toystory.mp4",
+    "status": false
+  },
+  {
+    "videoId": "9",
+    "name": "CONTACT",
+    "description": "Japan USA KOREA.",
+    "linkUrl": "http://www.html5videoplayer.net/videos/toystory.mp4",
+    "status": false
+  }
+]
